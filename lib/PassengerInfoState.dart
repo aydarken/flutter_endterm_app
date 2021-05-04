@@ -45,6 +45,22 @@ class PassengerInfoState extends State<PassengerInfo> {
         price: '2500',
         sit_num: '2',
         type: 'online'
+    ),  Passengers(
+        id: 5,
+        name: 'Test user 5',
+        phone: '87777777777',
+        mail: 'test5@gmail.com',
+        price: '2500',
+        sit_num: '2',
+        type: 'online'
+    ), Passengers(
+        id: 6,
+        name: 'Test user 6',
+        phone: '87777777777',
+        mail: 'test5@gmail.com',
+        price: '2500',
+        sit_num: '2',
+        type: 'online'
     ),
   ];
 

@@ -27,6 +27,14 @@ class _MyAppState extends State<MyApp> {
         seats: '45 мест',
         carNumber: 'KZ 122 KN2'),
     BusLine(
+        name: 'TestBus',
+        from: 'Семей',
+        to: 'Алматы',
+        fromDateTime: DateTime.parse("2021-02-06 14:00:00"),
+        toDateTime: DateTime.parse("2021-02-08 05:00:00"),
+        seats: '66 мест',
+        carNumber: 'KZ 122 KN2'),
+    BusLine(
         name: 'TestBus2',
         from: 'Талдыкорган',
         to: 'Талгар',
@@ -40,6 +48,14 @@ class _MyAppState extends State<MyApp> {
         to: 'Алматы',
         fromDateTime: DateTime.parse("2021-04-09 18:39:00"),
         toDateTime: DateTime.parse("2021-04-10 06:10:00"),
+        seats: '32 мест',
+        carNumber: 'KZ 811 DSA'),
+    BusLine(
+        name: 'TestBus5',
+        from: 'АлматыТараз',
+        to: 'Тараз',
+        fromDateTime: DateTime.parse("2021-04-11 18:39:00"),
+        toDateTime: DateTime.parse("2021-04-12 06:10:00"),
         seats: '32 мест',
         carNumber: 'KZ 811 DSA'),
   ];

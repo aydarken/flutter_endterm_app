@@ -6,6 +6,7 @@ class BusLine {
   DateTime toDateTime;
   String seats;
   String carNumber;
+  String icon;
 
   BusLine({
     this.name,
@@ -15,6 +16,7 @@ class BusLine {
     this.toDateTime,
     this.seats,
     this.carNumber,
+    this.icon,
   });
 }
 
